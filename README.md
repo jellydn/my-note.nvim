@@ -3,7 +3,11 @@
 MyNote is a Neovim plugin that allows you to take notes in a floating window. It is a reimplementation of the flote.nvim plugin using the nui.popup module. The nui.popup module provides more flexibility and customization options for the floating window. The MyNote plugin allows you to store your notes in Markdown files in a cache directory, with separate files for each directory and a global file. You can customize the appearance of the floating window using various configuration options. To use the plugin, simply run the :MyNote command to open the floating window and start taking notes.
 </p>
 
+![https://gyazo.com/c0d7d05f9280f78d6063703e285f7952.gif](https://gyazo.com/c0d7d05f9280f78d6063703e285f7952.gif)
+
 ## Usage
+
+Install MyNote.nvim with [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 return {
