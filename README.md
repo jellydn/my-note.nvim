@@ -36,6 +36,17 @@ return {
 
 This plugin is mainly for learning purposes and is not intended to be a full-featured note-taking solution.
 
+## Acknowledgements
+
+MyNote is a reimplementation of the flote.nvim plugin by JellyApple102, which provides easy, minimal, per-project, and global markdown notes.
+
+MyNote uses the nui.popup module by MunifTanjim, which is a UI component library for Neovim. We thank MunifTanjim for creating and maintaining this useful module.
+
+Links to the original plugins:
+
+- https://github.com/JellyApple102/flote.nvim Easy, minimal, per-project and global markdown notes.
+- https://github.com/MunifTanjim/nui.nvim UI Component Library for Neovim.
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
