@@ -40,6 +40,15 @@ return {
 
 This plugin is mainly for learning purposes and is not intended to be a full-featured note-taking solution.
 
+## Development
+
+Run the tests in a clean Neovim process with [vusted](https://github.com/notomo/vusted):
+
+```bash
+luarocks install vusted
+vusted tests
+```
+
 ## Acknowledgements
 
 MyNote is a reimplementation of the flote.nvim plugin by JellyApple102, which provides easy, minimal, per-project, and global markdown notes.
