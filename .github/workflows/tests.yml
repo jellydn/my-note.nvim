@@ -6,13 +6,16 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Run tests
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        neovim_version: ['nightly']
+        neovim_version: ["nightly"]
 
     steps:
       - uses: actions/checkout@v3
